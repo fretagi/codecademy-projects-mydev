@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+header {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  list-style: none;
+}
+.nav-item {
+  margin-right: 30px;
+  padding-top: 10px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+  
+}
+.nav-item, li:nth-child(1) {
+  margin-right: auto;
+  
+}
+.centered-text {
+  text-align: center;
+  padding-top: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /*background-color: grey;*/
+  border: 1px solid lightslategrey;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.box1 {
+  background-color: #ebcc83;
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+.box2 {
+  background-color: #e0d8e3;
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+.box3 {
+  background-color: #bcebde;
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+.box4 {
+  background-color: #abeb83;
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+.box5 {
+  background-color: #ede0c0;
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+
+/* CARDS */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  
+  /*border: 1px solid gray;*/
+  width: 80%;
+  margin: 0 auto;
+}
+.card {
+  border: 1px solid #000;
+  height: 200px;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 20px;
+  
+}
+.card-header {
+  background-color: #ede0c0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  
+}
+.card-main {
+  text-align: center;
+  font-family: 'Baloo Thambi 2', cursive;
+
+}
+
+/* BUTTONS */
+
+.buttons {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  cursor: pointer;
+  background-color: #bcebde;
+  width: 200px;
+  height: 60px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+button:hover {
+  background-color: #fff;
+  
+}
+
+.bottom-content {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid lightslategray;
+  border-radius: 4px;
+  height: 50px;
+  margin-top: 20px;
+}
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  
+}
+.copyright li {
+  margin-right: 30px;
+  padding-top: 5px;
+}
+.copyright li:nth-child(1) {
+  margin-right: auto;
+  font-family: 'Baloo Thambi 2', cursive;
+  padding-top: 5px;
+}
